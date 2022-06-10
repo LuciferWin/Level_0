@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Looping
+
+        //ForLoop
+        for (let i = 0; i <= 5; i++){
+            document.write("<h1>Hello JavaScript!</h1>");
+        }
+
+        let list = ['a','b','c',1,2,3];
+
+        for(let j = 0; j < list.length; j++){
+            document.write(`<h1>${list[j]}</h1>`)
+        }
+
+        for(let n = 1; n <= 12; n++){
+            let result = 12 * n;
+            document.write(`<h1>12 x ${n} = ${result}</h1>`);
+            
+        }
+
+        for (let m = 0; m < 5; m++){
+            for(let o = 0; o < 5; o++){
+                document.write("*");
+            }
+            document.write(`<br>`);
+        }
+
+        for (let g = 0; g < 5; g++){
+            for (let h = 0; h < g; h++){
+                document.write("*");
+            }
+            document.write(`<br>`);
+
+        }
+        for (let g = 5; g >= 0; g--){
+            for (let h = 0; h <= g; h++){
+                document.write("*");
+            }
+            document.write(`<br>`);
+
+        }
+
+        //While Loop
+        let num = 1;
+        while(num <= 20){//()only true
+            document.write(`<h3>This Number is ${num}</h3>`);
+            num++;
+        }
+
+        //Do While Loop
+        let num1 = 1;//()No Matter Do Once
+        do {
+            document.write(`<h3>This Number is ${num1}</h3>`);
+            num1++;
+
+        }while(num1 <= 0 )
+        
+    </script>
+</body>
+</html>

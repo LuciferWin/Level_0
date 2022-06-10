@@ -1,0 +1,13 @@
+.online{
+    font-size: 50px;
+    font-family: 'Neonderthaw', cursive;
+    color: red;
+}
+@font-face {
+    font-family: spy;
+    src: url(fonts/spyagency3_2semital.ttf);
+}
+.offline{
+    font-size: 50px;
+    font-family: spy;
+}

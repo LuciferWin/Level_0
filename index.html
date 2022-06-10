@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucifer Win</title>
+</head>
+<body>
+    <div id="center">
+        <h1 id="play">Phone Brands</h1>
+
+        <input type="text" name="brand" id="brand">
+        <button type="button" onclick="add()">Add</button>
+
+        <ol id="olist" type="1">
+            <li>Apple</li>
+        </ol>
+        <hr size="5px" color="black">
+        <button type="button" onclick="play()">Play Guessing Game</button>
+    </div>
+    <script>
+        function add(){
+            let brand = document.querySelector('#brand').value;
+            console.log(brand);
+            let list = document.createElement('li');
+            list.innerHTML = brand;
+            console.log(list);
+            let olist = document.querySelector('#olist');
+            olist.appendChild(list);
+        }
+        function play(){
+            let luckNum = 7;
+            let guessNum = prompt("Pick A Number from 1 to 10 !");
+            console.log(luckNum);
+
+            while(guessNum != luckNum){
+                alert("You Picked The Wrong Number");
+                guessNum = prompt("Pick Another Number To Win !");
+            };
+            alert("You Win The Game !");
+        }
+    </script>
+</body>
+</html>

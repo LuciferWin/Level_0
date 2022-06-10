@@ -1,0 +1,18 @@
+*{
+    text-align: center;
+}
+.p1{
+    margin: 80px;
+    padding: 30px ;
+    background-color: gold;
+    border: firebrick 10px solid;
+}
+h1{
+    border: firebrick 10px solid;
+    margin: 80px;
+    padding: 120px;
+    background-color: gold;
+}
+body{
+    background-color: greenyellow;
+}

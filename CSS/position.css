@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+/* Start From Element */
+.relativeparent{
+    border: 1px solid black;
+    height: 700px;
+    width: 1000px;
+}
+.relative{
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+/* Start From Document */
+.absoluteparent{
+    border: 1px solid black;
+    height: 700px;
+    width: 1000px;
+    position: relative;
+}
+.absolute{
+    border: 1px solid yellow;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+/* Start From Document */
+.fixed{
+    position: fixed;
+    top: 50px;
+    left: 900px;
+    background-color: tomato;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Element With DOM</title>
+</head>
+<body>
+    <h3 id="heading" onclick="change_color()">Create Element</h3>
+    <button type="button" onclick="click_event()">Click</button>
+    <br><br>
+    <input type="text" name="name" id="name">
+    <button type="button" onclick="adding()">Add</button>
+    <ul id="ulist">
+        <li>Zayn Malik</li>
+    </ul>
+    
+
+    <script>
+        //Create Element
+        function click_event(){
+            let h3 = document.createElement('h3');
+            h3.innerHTML = 'Create H3 Element';
+            console.log(h3);
+            document.body.appendChild(h3);
+        }
+
+        //Adding Value From Input
+        function adding(){
+            let name = document.querySelector('#name').value;
+            console.log(name);
+            let list = document.createElement('li');
+            list.innerHTML = name;
+            console.log(list);
+            let ulist = document.querySelector('#ulist');
+            ulist.appendChild(list);
+        }
+
+        //Attribute Adding
+        function change_color(){
+            let heading = document.querySelector('#heading');
+            let attr = heading.getAttribute('style');
+            console.log(attr);
+
+            if(attr){
+                heading.removeAttribute('style');
+            }else{
+                heading.setAttribute('style','color:grey;');
+            }
+        }
+    </script>
+</body>
+</html>

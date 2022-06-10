@@ -1,0 +1,18 @@
+/* Id Selector */
+h1#head{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(208, 121, 14);
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+/* Class Selector */
+.text{
+    text-indent: 50px;
+    color: rgb(113, 84, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+body,html{
+    background-color: rgba(171, 240, 224, 0.804);
+}

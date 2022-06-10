@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div id="header1">
+        <center>
+            <a href="../index.html">&#x1F3E0;Home</a>|
+            <a href="services.html">&#128295;Services</a>|
+            <a href="about.html">&#x2755;About</a>|
+            <a href="contact.html">&#x1F4DE;Contact</a>
+        </center>
+    </div>
+
+    <img src="../images/img2.png" alt="" width="100%" height="100%">
+        <div id="f1">
+            <center><h2>&#8487;Lucifer Win&#8487;</h2></center>
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header1 = document.getElementById("header1");
+            var sticky = header1.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header1.classList.add("sticky");
+              } else {
+                header1.classList.remove("sticky");
+              }
+            }
+        </script>
+</body>
+</html>

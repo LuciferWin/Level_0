@@ -1,0 +1,351 @@
+@font-face {
+    font-family: abadon;
+    src: url(../Abaddon\ ll\ jeda.ttf);
+}
+@font-face {
+    font-family: type;
+    src: url(../TYPEWR__.TTF);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    text-transform: uppercase;
+    word-spacing: 20px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.brand_name{
+    margin-left: 100px;
+    margin-top: -70px;
+    font-family: abadon;
+    font-size: 20px;
+    color: rgb(255, 251, 251);
+}
+.brand_name:hover{
+    color: pink;
+    transition-duration: 0.5s;
+}
+.nav_brand{
+    display: inline-block;
+}
+nav.navbar ul{
+    float: right;
+}
+.navbar li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(56, 56, 56);
+}
+.navbar ul li a:hover{
+    color: pink;
+    letter-spacing: 5px;
+    transition-duration: 0.5s;
+}
+.background_text{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    color: white;
+    font-family: type;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.perfect{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.shop{
+    background-color: gray;
+    border: 1px solid gray;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.shop:hover{
+    color: pink;
+    background-color: black;
+    letter-spacing: 3px;
+    transition: 1s;
+}
+.header{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.divided{
+    width: 100px;
+    border: 2px solid pink;
+    margin: auto;
+}
+.product{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    row-gap: 30px;
+    color: white;
+}
+.photos{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.242);
+    margin-bottom: 15px;
+}
+.red{
+    color: red;
+}
+.about{
+    font-family: type;
+    margin-top: 60px;
+    height: 220px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+    background-image: url(../images/bg2.jpg);
+    text-align: center;
+}
+.about div{
+    padding: 55px;
+}
+.divid{
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.howto{
+    margin-top: 80px;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+#packing{
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.making{
+    color: white;
+    line-height: 30px;
+    margin-right: 50px;
+}
+.flower{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.content{
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.way{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.support{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(255, 255, 255);
+}
+.support:hover{
+    background-color: pink;
+}
+.sg{
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fe{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.footbar{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(56, 56, 56);
+}
+.footnav{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.navlink{
+    text-decoration: none;
+    font-family: type;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.837);
+    text-transform: uppercase;
+}
+.navlink:hover{
+    letter-spacing: 2px;
+    color: pink;
+    transition: 0.5s;
+}
+.contact{
+    margin-top: 30px;
+}
+.contact a{
+    color: white;
+    padding-left: 20px;
+}
+.contact a:hover{
+    color: pink;
+}
+.photos:hover{
+    box-shadow: 5px 10px 10px rgb(255,192,203);
+    margin-top: -10px;
+    transition-duration: 0.2s;
+}
+.category{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.category:hover{
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.3s;
+}
+#cate{
+    width: 100%;
+    height: min-content;
+    background-color: rgb(153, 122, 127);
+}
+.buy{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: pink;
+    color: black;
+    border: 0px;
+    margin-top: 10px;
+}
+.buy:hover{
+    color: rgb(245, 122, 142);
+    background-color: white;
+}
+#top{
+    display: block ;
+    text-decoration: none;
+    color: pink;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#top:hover{
+    letter-spacing: 2px;
+    transition-duration: 0.3s;
+}
+#about{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    line-height: 30px;
+}
+.rules{
+    color: white;
+    font-size: 20px;
+    font-family: type;
+    margin: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+#team{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.person{
+    width: 300px;
+    height: 400px;
+    border-radius: 100px;
+    box-shadow: 3px 5px 8px white;
+}
+.person:hover{
+    margin-top: -10px;
+    transition-duration: 0.4s;
+    box-shadow: 3px 5px 8px pink;
+}
+.pt{
+    font-size: 20px;
+    font-family: type;
+    color: white;
+}
+/* Float */
+div.float_left iframe{
+    width: 50%;
+    float: left;
+    padding: 30px;
+    border-radius: 80px;
+}
+.clear{
+    clear: both;
+}
+#contact_us{
+    color: white;
+    line-height: 40px;
+    font-family: type;
+    font-size: 20px;
+}
+#send{
+    font-size: 22px;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: type;
+    border: 0;
+}
+#send:hover{
+    letter-spacing: 3px;
+    color: black;
+    background-color: pink;
+    transition-duration: 0.5s;
+}
+.info{
+    font-size: 25px;
+    margin-top: 70px;
+}

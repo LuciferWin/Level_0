@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: skyblue;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+form{
+    width: 80%;
+    /* Auto Adjust */
+    margin: auto;
+}
+input[type="text"],input[type="number"],input[type="email"]{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 5px solid royalblue;
+    color: slateblue;
+    font-size: 20px;
+}
+/* Focus */
+input[type="text"]:focus,input[type="number"]:focus,input[type="email"]:focus{
+    width: 1080px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: 5px solid royalblue;
+    outline: none;
+    color: slateblue;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* Radio Transtation */
+input[type=radio]:checked + label{
+    color: royalblue;
+    font-size: 30px;
+}
+#address{
+    width: 100%;
+    height: 100px;
+    text-indent: 50px;
+    font-size: 20px;
+    color: slateblue;
+    border-radius: 10px;
+    border: 5px solid royalblue;
+    outline: none;
+}
+/* Radio Or Checkbox Transtation */
+input[type=checkbox]:checked + label{
+    color: royalblue;
+    font-size: 20px;
+}
+/* input[type=checkbox]:disabled + label{
+    color: red;
+} */
+/* input[type=checkbox]:enabled + label{
+    color: green;
+} */
+/* List Effect */
+ul li:first-child{
+    color: royalblue;
+}
+ul li:nth-child(4){
+    color: sienna;
+}
+p:empty{
+    background-color: rgb(10, 17, 86);
+    width: 100%;
+    height: 15px;
+}
+#TY{
+    text-align: center;
+}

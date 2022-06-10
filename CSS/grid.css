@@ -1,0 +1,33 @@
+div.gridone,  div.gridtwo, div.gridthree,div.gridfour,div.gridfive{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+div.gridone div, div.gridtwo div, div.gridthree div, div.gridfour div,div.gridfive div{
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+}
+div.gridtwo{
+    column-gap: 50px;
+}
+div.gridthree{
+    row-gap: 50px;
+}
+div.gridone{
+    /* column-gap: 50px;
+    row-gap: 50px; */
+    gap: 50px;
+}
+div.gridfour .gridaddcolumn{
+    font-style: italic;
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+div.gridfive .gridaddrow{
+    font-style: italic;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+div.navgrid div a{
+    text-decoration: none;
+}

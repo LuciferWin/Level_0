@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Pass</title>
+</head>
+<body>
+    <center>
+        <table border="0" cellpadding="0" cellspacing="10">
+            <form action="" method="post" name="Myform">
+            <thead>
+                <tr>
+                    <td colspan="2" align="center"><h1>Exam Result</h1></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="turboc">Turbo C</label></td>
+                    <td><input type="number" name="turboc" id="turboc" placeholder="Enter Turbo C Mark" required></td>
+                </tr>
+                <tr>
+                    <td><label for="java">JAVA</label></td>
+                    <td><input type="number" name="java" id="java" placeholder="Enter JAVA Mark" required></td>
+                </tr>
+                <tr>
+                    <td><label for="js">JavaScript</label></td>
+                    <td><input type="number" name="js" id="js" placeholder="Enter JavaScript Mark" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><button type="submit" onclick="result()">Result</button></td>
+                </tr>
+            </tbody>
+            </form>
+        </table>
+    </center>
+    <script>
+        function result(){
+
+            let cresult = document.Myform.turboc.value;
+            console.log(cresult);
+            let jresult = document.Myform.java.value;
+            console.log(jresult);
+            let jsresult = document.Myform.js.value;
+            console.log(jsresult);
+        
+            if (cresult >= 50 && jresult >= 50 && jsresult >= 50){
+                document.write(`<center><h1>You Pass The Exam!</h1></center>`);
+                if (cresult >= 81 || jresult >= 81 || jsresult >= 81){
+                document.write(`<center><h1>With Distinction!</h1></center>`);
+            }
+            }else {
+                document.write(`<center><h1>You Fail The Exam!</h1></center>`);
+            }
+
+        }
+    </script>
+</body>
+</html>

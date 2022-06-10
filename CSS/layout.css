@@ -1,0 +1,26 @@
+.inline{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+    width: 500px;
+    padding: 20px;
+    margin: 10px;
+}
+.block{
+    border-radius: 10px;
+    border: firebrick solid 2px;
+    display: inline;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+}
+/* display: inline-block; */
+.ib{
+    border: firebrick solid 5px;
+    margin: 5px;
+    padding: 20px;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}

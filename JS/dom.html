@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Selector</title>
+</head>
+<body>
+    <center>
+        <h1 id="heading">This is innerHTML</h1><br><br>
+        <h1 id="heading2">This is Without innerHTML</h1>
+        <h1 id="heading3">This is innerHTML Assigning</h1>
+        <h1 id="heading4">This is innerText Assigning</h1>
+        <p class="lang">A</p>
+        <p class="lang">B</p>
+        <p class="lang">C</p>
+        <p class="lang">D</p>
+
+        <button onclick="language()">Click</button>
+    </center>
+
+    <script>
+        function language(){
+            // let IH = document.getElementById('heading').innerHTML;
+            // console.log(IH);
+
+            // let IT = document.getElementById('heading2');
+            // console.log(IT);
+            
+            // let IH2 = document.getElementById('heading3').innerHTML;
+            // console.log(IH2);
+            // IH2.innerHTML('<i>This is IH2</i>');
+
+            // let IT2 = document.getElementById('heading4');
+            // console.log(IT2);
+            // IH2.innerText('<i>This is IT2</i>');
+
+            // let lan = document.getElementsByClassName('lang');
+            // console.log(lan);
+
+            // let class_lang = document.getElementsByClassName('lang');
+            // console.log(class_lang);
+
+            let qid = document.querySelector('#heading').innerText;
+            console.log(qid);
+
+            let qclass = document.querySelectorAll('.lang');
+            console.log(qclass[2].innerText);
+
+            let qtag = document.querySelector
+        }
+    </script>
+</body>
+</html>

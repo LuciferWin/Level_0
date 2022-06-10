@@ -1,0 +1,24 @@
+a:link{
+    color: red;
+    letter-spacing: 10px;
+}
+a:hover{
+    color: green;
+    word-spacing: 20px;
+}
+a:active{
+    color: black;
+    font-family: cursive;
+}
+a:visited{
+    color: cyan;
+    
+}
+a{
+    font-size: 30px;
+}
+/* Target */
+div:target{
+    color: blue;
+    border: 2px solid red;
+}

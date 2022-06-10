@@ -1,0 +1,9 @@
+/* Descentdant */
+#desc a{
+    color: red;
+}
+/* Child */
+#child > a{
+    color: green;
+    font-size: 25px;
+}

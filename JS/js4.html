@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //String
+        let firstname = 'Lucifer';
+        let lastname = " Win";
+        console.log(typeof(firstname));
+        console.log(typeof(lastname));
+        console.log(firstname.length);
+        console.log(lastname.length);
+
+        let fullname = firstname + lastname;
+        console.log(fullname);
+        console.log("My Nickname is " + fullname);
+        console.log(fullname.length)
+        console.log(fullname[3]);
+        console.log(fullname.toLowerCase());
+        console.log(fullname.toUpperCase());
+        console.log(fullname.substr(8,3));
+        console.log(fullname.substring(8,11));//Not Recommanded
+
+        let hi = ' Hello, Welcome! ';
+        console.log(hi.trim());//Usually For Password 
+
+        let ser = 'JavaScript is funy!';
+        let res = ser.search("funy");
+        console.log(res);
+
+        let rep = "I want to visit Yangon!";
+        let rep_result = rep.replace("visit","live in");
+        console.log(rep_result.length);
+
+        //Backtick Sign
+        let string = `I
+         am
+                 A
+                                     Programmer`;
+        console.log(string);
+        console.log(`My name is ${fullname}`);//Important 
+        console.log(`Hello\nJS`);
+        console.log(`Hello\tJacaScript`);
+        console.log(`I'm a programmer.`);
+        console.log("I'm a programmer.");
+    </script>
+</body>
+</html>

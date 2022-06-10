@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <table border="0" cellspcaing="0" cellpadding="50">
+        <form action="database.php" method="post">
+        <tbody>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" name="username" id="name" placeholder="User Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail</label></td>
+                <td><input type="email" name="useremail" id="email" placeholder="example@eamil.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="userpassword" id="password" placeholder="Type Complicated Password" required></td>
+            </tr>
+            <tr>
+                <td><label for="phnumber">Phone Number</label></td>
+                <td><input type="number" name="phnumber" id="phnumber" placeholder="+959xxxxxxxxx" required></td>
+            </tr>
+            <tr>
+                <td><label for="profile">Choose Your Profile Photo</label></td>
+                <td><input type="file" accept="images/*" name="profile" id="profile" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td><input type="radio" name="gender" value="male" id="male" required><label for="male">Male</label></td>
+                <td><input type="radio" name="gender" value="female" id="female required"><label for="female">Female</label></td>
+                <td><input type="radio" name="gender" value="other" id="other" required><label for="other">Other</label></td>
+            </tr>
+            <tr>
+                <td><label for="hobby">Hobby</label></td>
+                <td><input type="checkbox" name="travelling" value="travelling" id="travelling"><label for="travelling">Travelling</label></td>
+                <td><input type="checkbox" name="boxing" value="boxing" id="boxing"><label for="bosing">Boxing</label></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td style="color: red;">Submit to Register</td>
+                <td><button type="submit">Submit</button></td>
+            </tr>
+        </tbody>
+        <fieldset>
+			<legend>Rules</legend>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<ul>
+				<li>This is First Rule</li>
+				<li>This is Second Rule</li>
+				<li>This is Third Rule</li>
+				<li>This is Fourth Rule</li>
+				<li>This is Fifth Rule</li>
+				<li>This is Sixth Rule</li>
+				<li>This is Seventh Rule</li>
+				<li>This is Eight Rule</li>
+			</ul>
+		</fieldset>
+         </form>
+    </table>
+</body>
+</html>

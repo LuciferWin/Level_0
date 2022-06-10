@@ -1,0 +1,11 @@
+h1{
+    margin-left: 50px;
+}
+.m1{
+    margin: 50px;
+    border: solid 1px black;
+}
+.m2{
+    margin: 80px 10px 50px 30px;
+    border: solid 1px red;
+}

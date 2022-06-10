@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Array
+        //[] or Array()
+        let arr = [1,2,3];//More Useable
+        let arr1 = Array('a','b','c');
+        console.log(arr);
+        console.log(arr1);
+        console.log(arr[2]);
+        console.log(arr1[0]);
+
+        let arr2 = [1,2,3,'a','b','c',['x','y','z']];
+        console.log(arr2[6]);
+
+        let ma = [[1,2,3],['a','b','c'],['!','@','#']];
+        console.log(ma[2]);
+
+        let car = [];
+        car[0] = 'TOYOTA';
+        car[1] = 'PORSCHE';
+        console.log(car);
+
+        car.push('ROLL RYCE');//Important
+        console.log(car);
+
+        car.unshift('HONDA');
+        console.log(car);
+
+        car.pop();//Important
+        console.log(car);
+
+        car.shift();
+        console.log(car);
+
+        car.sort();//Arrange In Alphabet
+        console.log(car);
+
+        car.reverse();//Reverse In Alphabet
+        console.log(car);
+        
+        let arr_1 = [1,2,3];
+        let arr_2 = ['a','b','c'];
+        let arr_3 = arr_1.concat(arr_2);
+        console.log(arr_3);
+
+        
+    </script>
+</body>
+</html>
